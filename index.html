@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Alura Challenge</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./imagens/Vector.png" alt="logo Alura">
+    </header>
+    <main class="principal">
+        
+        <section class="texto">
+            <textarea name="texto" id="coletar__dados" cols="30" rows="10" placeholder="Digite seu texto:"></textarea>
+            
+            <div class="advertencia">
+            <i class="bi bi-exclamation-circle-fill">    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+              </svg></i>
+            <p class="mensagem__advertencia">Apenas letras minúsculas e sem acento.</p>
+        </div>
+            <div class="div__botao">
+                
+                <button onclick="botaoCriptografia()" class="botao__criptografar" id="botao__criptografar" type="button">Criptografar</button>
+                <button onclick="botaoDescriptografar()" class="botao__descriptografar" id="botao__descriptografar" type="button">Descriptografar</button>
+            </div>
+            
+        </section>
+
+        <section class="conteudo__imagem" id="conteudo__imagem">
+
+            <div class="principal">
+
+            <div class="pagina__principal">
+            <img class="imagem" src="./imagens/High quality products 1 1.svg" alt="Homem com uma lupa olhando um diamante">
+           
+
+            <div>
+                <h2 class="principal__texto">Nenhuma mensagem encontrada</h2>
+                <p class="principal__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="conteudo__sem__imagem" id="conteudo__sem__imagem">
+        <div class="pagina__final">
+            <!-- <p class="texto__traduzido" id="texto__traduzido"></p> -->
+            <textarea readonly class="texto__traduzido" name="texto__traduzido" id="texto__traduzido" cols="30" rows="10" placeholder="Digite seu texto aqui:"></textarea>
+             <button onclick="botaoCopiar()" class="botao__copiar" id="botao__copiar" type="button">Copiar</button>
+            </div>
+
+        </div>
+    </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Fernando Sátiro</p>
+    </footer>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

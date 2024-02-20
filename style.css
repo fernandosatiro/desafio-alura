@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #f3f5fc;
+}
+
+.cabecalho{
+    padding: 2% 0 0 2%;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto{
+width: 48rem;
+height: 40rem;
+}
+
+#coletar__dados{
+    all: unset;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0A3871;
+    overflow: hidden;
+    resize: none;
+    border: none;
+    background-color: inherit;
+}
+
+.advertencia{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.mensagem__advertencia{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-left: 6px;
+}
+.bi {
+    width: 1rem;
+    height: 1rem;
+}
+
+.div__botao{
+    margin-left: px;
+}
+
+.botao__criptografar{
+    width: 328px;
+    height: 67;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #0A3871;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.botao__criptografar:hover{
+    background-color: #0A3895;
+    cursor: pointer;
+    border: 2px solid #D8DFE8;
+}
+
+.botao__descriptografar{
+    width: 328px;
+    height: 67;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    align-items: center;
+    border: 1px solid #0A3871;
+}
+
+.botao__descriptografar:hover{
+    background-color: #D8DFF2;
+    cursor: pointer;
+    border: 2px solid #0A3871;
+}
+
+.botao__copiar{
+    width: 20.5rem;
+    height: 67;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    align-items: center;
+    border: 1px dotted #0A3871;
+}
+
+.botao__copiar:hover{
+    background-color: #D8DFF2;
+    cursor: pointer;
+    border: 2px dotted #0A3871;
+}
+
+.conteudo__imagem{
+    background-color: #ffffff;
+    width: 20rem;
+    height: 40rem;
+    padding: 8rem 2rem 24rem ;
+    border-radius: 2rem;
+    box-shadow: 0px 24px 32px 8px #00000028;
+}
+
+.conteudo__sem__imagem{
+    border-radius: 2rem; 
+    padding: 5% 32px 397px ;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px 8px #00000028;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+}
+
+.pagina__principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__texto{
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    
+}
+
+.principal__paragrafo{
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding-left: 3rem;
+}
+
+.texto__traduzido{
+    all: unset;
+    width: 21rem;
+    height: 28rem;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.rodape{
+    background-color: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #0A3871;
+    padding: 24px;
+    width: auto; 
+    height: 2rem;
+    margin-top: 1rem;
+}
+/* Dispositivo movél - celular */
+
+@media (max-width: 767px) {
+    
+    .rodape{
+        display: none;
+    }
+
+    .principal{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #coletar__dados{
+        margin-top: 10%;
+        margin-left: 1rem;
+        width: 20rem;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #0A3871;
+        overflow: hidden;
+        resize: none;
+        border: none;
+        background-color: inherit;
+    }
+
+    .advertencia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3rem;
+    }
+
+    .conteudo__imagem{
+        background-color: #ffffff;
+        width: 20rem;
+        height: 8rem;
+        padding: 2rem 2rem 10rem ;
+        border-radius: 2rem;
+        box-shadow: 0px 24px 32px 8px #00000028;
+        
+    }
+
+    .conteudo__sem__imagem{
+        width: 25rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        height: 20rem;
+        margin: 0;
+    }
+
+    .texto__traduzido{
+        width: 18rem;
+        height: 10rem;
+    }
+
+    .imagem{
+        display: none;
+    }
+
+    .div__botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao__criptografar{
+        width: 21.7rem;
+    }
+
+    .botao__descriptografar{
+        width: 21.7rem;
+    }
+
+    }
+
+    /* Tablet */
+
+    @media (min-width: 768px) and (max-width: 1030px){
+    
+        .rodape{
+            display: none;
+        }
+    
+        .principal{
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 2rem;
+        }
+        .advertencia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 3rem;
+        }
+        .conteudo__imagem{
+            background-color: #ffffff;
+            width: 43rem;
+            height: 8rem;
+            padding: 2rem 2rem 2rem ;
+            border-radius: 2rem;
+            box-shadow: 0px 24px 32px 8px #00000028;
+            
+        }
+    
+        .conteudo__sem__imagem{
+            width: 43rem;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            height: 20rem;
+            margin: 0;
+
+        }
+    
+        .texto__traduzido{
+            width: 43rem;
+            height: 10rem;
+            gap: 10px;
+        }
+    
+        .imagem{
+            display: none;
+        }
+    
+        .div__botao{
+            display: flex;
+            align-items: center;
+        }
+    
+        .botao__criptografar{
+            width: 20.7rem;
+        }
+    
+        .botao__descriptografar{
+            width: 20.7rem;
+        }
+
+    }
