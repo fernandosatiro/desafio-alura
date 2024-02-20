@@ -1,0 +1,3 @@
+- Projeto realizado no programa Next One da Oracle em parceria com a Alura;
+- O objetivo do projeto é criptografar e descriptografar uma mensagem trocando as vogais por outras palavras;
+- Este projeto tem como finalidade estudo, praticar o que foi estudado no curso.
