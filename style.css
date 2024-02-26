@@ -237,10 +237,11 @@ height: 37rem;
         background-color: #ffffff;
         width: 20rem;
         height: 8rem;
-        padding: 2rem 2rem 10rem ;
+        padding: 1rem 2rem 10rem ;
         border-radius: 2rem;
         box-shadow: 0px 24px 32px 8px #00000028;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        
     }
 
     .conteudo__sem__imagem{
@@ -250,6 +251,7 @@ height: 37rem;
         justify-content: center;
         height: 20rem;
         margin: 0;
+        
     }
 
     .texto__traduzido{
